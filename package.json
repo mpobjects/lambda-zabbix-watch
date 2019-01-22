@@ -1,0 +1,16 @@
+{
+  "name": "lambda-zabbix-watch",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to watch a zabbix server to provide an off-site status overview of zabbix and its monitored hosts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Michiel Hendriks",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.390.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
