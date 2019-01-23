@@ -44,7 +44,7 @@ Sort key: `hostid`
 
 ## Hosts
 
-```json
+```
 {
         hostid: hostid,
         name: name,
@@ -65,7 +65,7 @@ Sort key: `hostid`
 
 ## Events
 
-```json
+```
 {
         eventid: eventid,
         hostid: hostid,
