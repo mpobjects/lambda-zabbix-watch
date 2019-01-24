@@ -1,3 +1,7 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/mpobjects/lambda-zabbix-watch/badge.svg?targetFile=package.json)](https://snyk.io/test/github/mpobjects/lambda-zabbix-watch?targetFile=package.json)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/mpobjects/lambda-zabbix-watch.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mpobjects/lambda-zabbix-watch/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/mpobjects/lambda-zabbix-watch.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mpobjects/lambda-zabbix-watch/context:javascript)
+
 # Lambda Zabbix Watch
 AWS Lamba function to watch a zabbix server and report host status in DynamoDB. It records all monitored hosts, and currently active events and maintenance.
 
