@@ -186,7 +186,7 @@ function processHostEvent(host, event) {
 function processEventResults(hosts, response) {
     for (let i = 0; i < response.result.length; ++i) {
         let data = response.result[i];
-        for (j = 0; j < data.hosts.length; ++j) {
+        for (let j = 0; j < data.hosts.length; ++j) {
             let host = hosts[data.hosts[j].hostid];
             processHostEvent(host, data);
         }
